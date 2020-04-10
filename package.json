@@ -1,0 +1,111 @@
+{
+	"name": "all-builtin-commands",
+	"displayName": "all-builtin-commands",
+	"description": "Automatically adds all keybindings as commands, filling in any missing holes that VSCode refuses to adopt.",
+	"version": "1.0.0",
+	"engines": {
+		"vscode": "^1.44.x"
+	},
+	"categories": [
+		"Other"
+	],
+	"publisher": "krainboltgreene",
+	"contributes": {
+		"commands": [
+			{
+				"command": "cursorLineStart",
+				"title": "Move cursor to begin of line"
+			},
+			{
+				"command": "cursorLineEnd",
+				"title": "Move cursor to end of line"
+			},
+			{
+				"command": "cursorHome",
+				"title": "Move cursor to begin of expression"
+			},
+			{
+				"command": "cursorEnd",
+				"title": "Move cursor to end of expression"
+			},
+			{
+				"command": "cursorHomeSelect",
+				"title": "Select to begin of expression"
+			},
+			{
+				"command": "cursorEndSelect",
+				"title": "Select to end of expression"
+			},
+			{
+				"command": "cursorTopSelect",
+				"title": "Select to top of file"
+			},
+			{
+				"command": "cursorBottomSelect",
+				"title": "Select to end of file"
+			},
+			{
+				"command": "cursorTop",
+				"title": "Move cursor to top of file"
+			},
+			{
+				"command": "cursorBottom",
+				"title": "Move cursor to end of file"
+			},
+			{
+				"command": "cursorTopSelect",
+				"title": "Select to top of file"
+			},
+			{
+				"command": "cursorBottomSelect",
+				"title": "Select to end of file"
+			},
+			{
+				"command": "cursorWordEndRight",
+				"title": "Move cursor to end of previous word"
+			},
+			{
+				"command": "cursorWordEndRight",
+				"title": "Move cursor to end of current or next word"
+			},
+			{
+				"command": "cursorWordStartLeft",
+				"title": "Move cursor to start of current or previous word"
+			},
+			{
+				"command": "cursorWordStartRight",
+				"title": "Move cursor to start of next word"
+			},
+			{
+				"command": "cursorWordEndRightSelect",
+				"title": "Select to end of previous word"
+			},
+			{
+				"command": "cursorWordEndRightSelect",
+				"title": "Select to end of current or next word"
+			},
+			{
+				"command": "cursorWordStartLeftSelect",
+				"title": "Select to start of current or previous word"
+			},
+			{
+				"command": "cursorWordStartRightSelect",
+				"title": "Select to start of next word"
+			}
+		]
+	},
+	"devDependencies": {
+		"@types/glob": "^7.1.1",
+		"@types/mocha": "^7.0.1",
+		"@types/node": "^12.11.7",
+		"@types/vscode": "^1.44.0",
+		"@typescript-eslint/eslint-plugin": "^2.18.0",
+		"@typescript-eslint/parser": "^2.18.0",
+		"eslint": "^6.8.0",
+		"glob": "^7.1.6",
+		"mocha": "^7.0.1",
+		"typescript": "^3.7.5",
+		"vsce": "1.75.0",
+		"vscode-test": "^1.3.0"
+	}
+}
